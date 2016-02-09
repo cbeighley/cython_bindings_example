@@ -1,4 +1,4 @@
-# Simple Cython C Bindings Example
+# Simple Cython C Bindings Example / Demo
 
 ### Install
 
