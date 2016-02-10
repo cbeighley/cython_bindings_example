@@ -10,5 +10,5 @@ cdef class Foo:
     def update(self, i, f, c):
         return cfoo.update_foo(&self._foo, i, f, c)
 
-    def get_fields(self):
-        return {'i':self._foo.i, 'f':self._foo.f, 'c':self._foo.c}
+    def to_dict(self):
+        return self._foo
